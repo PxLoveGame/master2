@@ -1,0 +1,15 @@
+TP 1 optionnel : 
+
+Faire cas d'études sur les deux outils : JRipples et Codecity
+
+Etapes 1 : 
+
+analyse d'impact des changement (change impacted analyse)
+
+Etapes 2 : 
+
+? (voir git louis)
+
+Etapes 3 :
+
+Analyse des outils sur un cas pratique, faire un tuto (ce qu'on veut -> ce qu'on obtient)
