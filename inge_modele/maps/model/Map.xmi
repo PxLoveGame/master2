@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps:Map xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:maps="maps"
+    xsi:schemaLocation="maps modelTP1.ecore#//maps"
+    name="Montpellier">
+  <road xsi:type="maps:Predestrian"
+      name="Aiguillerie"
+      lenght="1021544"
+      border="//@publicspace.0 //@publicspace.1"/>
+  <road xsi:type="maps:Street"
+      name="rue joffre"
+      lenght="25"
+      border="//@publicspace.2"
+      meet="//@road.0"/>
+  <publicspace
+      xsi:type="maps:Garden"
+      name="Pérou"
+      borderedBy="//@road.0"/>
+  <publicspace
+      name="Comedie"
+      borderedBy="//@road.0"/>
+  <publicspace
+      xsi:type="maps:Square"
+      name="Esplanade"
+      borderedBy="//@road.1"/>
+</maps:Map>
