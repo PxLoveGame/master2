@@ -33,7 +33,11 @@ public class Archive extends Directory implements IArchive
 
 
     @Override
-    public void accept(Visitor v) {
+    protected  void accept(Visitor v) {
         v.visitConcreteArchive(this);
+
+        for(ElementStockage e : elements){
+            e.accept(v);
+        }
     }
 }

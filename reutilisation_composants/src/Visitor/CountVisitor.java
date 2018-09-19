@@ -2,20 +2,21 @@ package Visitor;
 
 import Structure.*;
 
-import java.util.HashMap;
-import java.util.Map;
+public class CountVisitor extends Visitor
+{
 
-public class RazVisitor extends Visitor {
+    private int count = 0;
 
     @Override
     public void visitConcreteArchive(Archive archive) {
-
 
     }
 
     @Override
     public void visitConcreteFile(File file) {
-        file.setContents("");
+        if(file.size() > 10){
+            count++;
+        }
     }
 
     @Override
@@ -31,5 +32,9 @@ public class RazVisitor extends Visitor {
     @Override
     public void visitConcreteDirectory(Directory directory) {
 
+    }
+
+    public int getCount(){
+        return count;
     }
 }

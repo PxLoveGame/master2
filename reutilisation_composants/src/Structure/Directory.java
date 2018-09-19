@@ -28,8 +28,14 @@ public class Directory extends ElementStockage
     }
 
 
-    public void accept(Visitor v) {
+    protected  void accept(Visitor v) {
+
+        for(ElementStockage e : this.elements){
+            e.accept(v);
+        }
+
         v.visitConcreteDirectory(this);
+
     }
 
     public void ls()
@@ -67,8 +73,8 @@ public class Directory extends ElementStockage
     {
         for (ElementStockage s : elements)
         {
-            if (s.name==e.name)
-                return elements.remove(s) ; // suppression de l'lment e dans la collection
+            if (s.name.equals(e.name))
+                return elements.remove(e) ; // suppression de l'lment e dans la collection
         }
 
         return false ;

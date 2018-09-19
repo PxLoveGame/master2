@@ -6,9 +6,9 @@ public abstract class Visitor
 {
 
     public abstract void visitConcreteArchive(Archive archive);
-    public abstract void visitConcreteFile(ElementStockage file);
-    public abstract void visitConcreteLink(ElementStockage link);
-    public abstract void visitConcreteSymlink(ElementStockage symlink);
-    public abstract void visitConcreteDirectory(ElementStockage directory);
+    public abstract void visitConcreteFile(File file);
+    public abstract void visitConcreteLink(Link link);
+    public abstract void visitConcreteSymlink(Symlink symlink);
+    public abstract void visitConcreteDirectory(Directory directory);
 
 }

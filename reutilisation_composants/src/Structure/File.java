@@ -22,7 +22,8 @@ public class File extends ElementStockage
     }
 
     @Override
-    public void accept(Visitor v) {
+    protected void accept(Visitor v) {
+
         v.visitConcreteFile(this);
     }
 

@@ -23,7 +23,7 @@ public class Link extends ElementStockage{
     }
 
     @Override
-    public void accept(Visitor v) {
+    protected  void accept(Visitor v) {
         v.visitConcreteLink(this);
     }
 

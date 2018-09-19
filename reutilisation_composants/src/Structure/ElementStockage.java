@@ -60,7 +60,7 @@ public abstract class ElementStockage
         return this.size()*8 ;
     }
 
-    public abstract void accept(Visitor v);
+    protected abstract void accept(Visitor v);
 
     public int getCount() {return 0;}
 

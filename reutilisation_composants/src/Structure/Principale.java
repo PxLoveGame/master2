@@ -1,10 +1,17 @@
 package Structure;
 
+import Visitor.CountVisitor;
+import Visitor.FindVisitor;
+import Visitor.JavaCleanVisitor;
+import Visitor.RazVisitor;
+
 public class Principale
 {
     public static void main(String[] args)
     {
-		/*Structure.Directory racine = new Structure.Directory("racine") ;
+		/*
+
+		Structure.Directory racine = new Structure.Directory("racine") ;
 		Structure.Directory d1 = new Structure.Directory("JAVA") ;
 		Structure.Directory d2 = new Structure.Directory("src") ;
 		
@@ -70,14 +77,14 @@ public class Principale
 		racine.ls() ;
 		System.out.println("taille : "+racine.size()) ;
 		System.out.println("\n") ;
-		
+
 		*/
 
         Directory d = new Directory("Pastis") ;
         File f = new File("Martini.class","martini") ;
         File f2 = new File("Ricard","ricard") ;
         Directory d2 = new Directory("Eau") ;
-        File f3 = new File("Glaçons.class","glaçons") ;
+        File f3 = new File("Glaçons.class","tout pleins de glaçons") ;
 
         d.add(f) ;
         d.add(f2) ;
@@ -96,5 +103,44 @@ public class Principale
 
         d.ls();
         d2.ls();
+
+        System.out.println("\n ==== Count Visitor ====");
+
+        CountVisitor countVisitor = new CountVisitor();
+        d2.accept(countVisitor);
+        System.out.println("Nombre de fichier de taille supérieur à 10 : " + countVisitor.getCount());
+
+        System.out.println("\n ==== RAZ Visitor ====");
+
+        RazVisitor razVisitor = new RazVisitor();
+        System.out.println("Taille avant : " + d.size());
+        d.accept(razVisitor);
+        System.out.println("Taille après : " + d.size());
+
+        System.out.println("\n ==== Find Visitor ====");
+
+        FindVisitor findVisitor = new FindVisitor("Eau");
+        d.accept(findVisitor);
+        System.out.println("Adresses absolue : " + findVisitor.getAbsoluteAdresses());
+
+        System.out.println("\n === JavaClean Visitor ====");
+
+        JavaCleanVisitor jvc = new JavaCleanVisitor(m -> {
+            if(m.getName().endsWith(".class")){
+                System.err.println("Match sur " + m.absoluteAdress());
+                return true;
+            }
+
+            return false;
+        });
+        d.accept(jvc);
+
+        d.ls();
+
+
+
+
+
+
     }
 }
