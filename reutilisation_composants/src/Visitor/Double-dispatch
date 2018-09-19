@@ -2,4 +2,4 @@ Le double dispatch :
 
 
 Permet de choisir quelle méthode utilisé entre celle du type static et du type dynamique, en général les langages ne dispose que du simple dispatch (ne permet de choisir la méthode utilisé qu'a un seul niveau, elle ne permettra pasa de choisir si il ya besoin parmis les argument de cette méthode)
-le double dispatch permet de faire cela 2 fois , à l'aide du pattern visiteur en ajoutant la méthode posant problème dans la classe des arguments de la première méthode. 
+le double dispatch permet de faire cela 2 fois , à l'aide du pattern visiteur en ajoutant la méthode posant problème dans la classe des arguments de la première méthode.

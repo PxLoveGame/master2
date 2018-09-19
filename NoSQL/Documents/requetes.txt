@@ -1,0 +1,130 @@
+////  MAP \\\\
+
+
+===== 1 =====
+
+function(doc) {
+  if(doc.type == 'old_region')
+	emit(null,doc);
+}
+
+==== 2 ====
+
+function(doc) {
+  if(doc.type == "commune")
+	emit(doc._id, {'latitude':doc.latitude, 'longitude' : doc.longitude})
+}
+
+==== 3 ====
+
+function(doc) {
+  if(doc.type === "commune" && doc.nom === "MONTPELLIER")
+	emit(doc.codeInsee, {'latitude':doc.latitude, 'longitude' : doc.longitude , 'departement' : doc.dep})
+}
+
+=== 4 ===
+
+function(doc) {
+  if(doc.nom_reg === "Occitanie")
+	emit(doc._id, {'President':doc.president})
+}
+
+//// MAP AND REDUCE \\\\
+
+==== 1 ====
+
+MAP :
+
+function(doc) {
+  if(doc.type === "commune")
+	emit([doc.old_reg,doc.dep], 1);
+}
+
+REDUCE :
+
+function(keys, values){	
+	return sum(values);
+}
+
+==== 2 ====
+
+MAP :
+
+function(doc) {
+  if(doc.type === "commune")
+	doc.populations.forEach(function(pop){
+		if(pop['pop_1985'] != undefined)
+			emit(doc.nom, pop['pop_1985']);
+	});
+}
+
+NO REDUCE
+
+
+==== 3 ====
+
+MAP :
+
+function(doc) {
+  if(doc.type === "commune")
+	doc.populations.forEach(function(pop){
+		if(pop['pop_1985'] != undefined)
+			emit(doc.dep, pop['pop_1985']);
+	});
+}
+
+REDUCE : 
+
+function(keys, values){	
+	return sum(values);
+}
+
+==== 4 ====
+
+function(doc) {
+  if(doc.type === "commune")
+	doc.populations.forEach(function(pop){
+		if(pop['pop_1985'] != undefined)
+			emit(doc.old_reg, pop['pop_1985']);
+	});
+}
+
+REDUCE : 
+
+function(keys, values){	
+	return sum(values);
+}
+
+//// AUTRE REQUETES \\\\
+
+=== 1 ===
+
+function(doc) {
+	var p85 = 0;
+  var p95 = 0;
+  
+  if(doc.type === "commune")
+	doc.populations.forEach(function(pop){
+		if(pop.pop_1985 != undefined)
+      			p85 = pop.pop_1985;
+      		if( pop.pop_1995 != undefined)
+      			p95 = pop.pop_1995;
+	});
+  if(p85 > p95)
+	emit(doc.nom, {'85':p85, '95': p95});
+}
+
+
+==== 2 ====
+
+function(doc){
+
+if(doc.type === "region")
+	emit(doc.nom_reg.toLowerCase(), doc);
+else if(doc.type === "old_region"){
+	if(doc.nom_reg === "MIDI-PYRENEES")
+		emit(doc.new_reg.toLowerCase(), doc);
+	else if(doc.nom_reg === "LANGUEDOC-ROUSSILLON")
+		emit(doc.new_reg.toLowerCase(), doc);
+}
+}

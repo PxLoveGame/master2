@@ -1,0 +1,11 @@
+{
+	"docs":
+[
+{             
+   "_id" :"occitanie",                                                                                                                               
+  "chef_lieu_reg" : "31555",                                                   
+  "nom_reg" : "Occitanie",                                                  
+  "type": "region",
+  "president": {"nom":"Delga","prenom":"Carole"}                          
+}
+]}

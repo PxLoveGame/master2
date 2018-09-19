@@ -1,0 +1,13 @@
+{
+	"docs" :
+[
+{                                                                                                                 
+  "_id" : "91",                                                            
+  "reg" : "91",                                                        
+  "chef_lieu_reg" : "34172",     
+   "type": "old_region",  
+  "new_reg" : "occitanie",                                                      
+  "nom_reg" : "LANGUEDOC-ROUSSILLON",     
+ "departements" : [{"dep" : "34", "nom_dep" : "HERAULT", "chef_lieu_dep" : "34172"},{"dep" : "30", "nom_dep" : "GARD", "chef_lieu_dep" : "30189"},{"dep" : "11", "nom_dep" : "AUDE", "chef_lieu_dep" : "11069"}, {"dep" : "66", "nom_dep" : "PYRENEES-ORIENTALES", "chef_lieu_dep" : "66136"}  ]                                                                                          
+}]
+}
