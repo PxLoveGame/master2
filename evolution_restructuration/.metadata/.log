@@ -4816,3 +4816,16 @@ java.net.SocketTimeoutException: connect timed out
 	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.listCatalogs(DefaultCatalogService.java:50)
 	at org.eclipse.epp.internal.mpc.ui.commands.MarketplaceWizardCommand$5.run(MarketplaceWizardCommand.java:278)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2018-09-24 15:04:39.767 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.net 1 0 2018-09-24 15:05:02.049
+!MESSAGE System property http.proxyHost is not set but should be prodsif-pack.infra.umontpellier.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2018-09-24 15:05:02.064
+!MESSAGE System property http.proxyPort is not set but should be 3128.
