@@ -1,0 +1,9 @@
+
+/**
+ * 
+ * @author Louis Daviaud
+ *
+ */
+public enum Animal {
+	Chien, B, C
+}
