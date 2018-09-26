@@ -1,0 +1,23 @@
+
+
+~~~~~ JRuby ~~~~~
+
+// Creation table
+Create 'commune', 'lieu', 'pop'
+
+/Insertion des tuples 
+
+put 'commune', '1', 'lieu:ville', 'Montpellier'
+put 'commune', '1', 'lieu:departement', 'Herault'
+put 'commune', '1', 'lieu:Region', 'Occitanie'
+put 'commune', '1', 'pop:NbHabitant', '208050'
+
+
+put 'commune', '2', 'lieu:ville', 'Nimes'
+put 'commune', '2', 'lieu:departement', 'Gard'
+put 'commune', '2', 'lieu:region', 'Occitanie'
+put 'commune', '2', 'pop:NbHabitant', '120000'
+
+put 'commune', '3', 'lieu:ville', 'Paris'
+put 'commune', '3', 'lieu:region', 'ile de france'
+put 'commune', '3', 'pop:NbHabitant', '2244000'
