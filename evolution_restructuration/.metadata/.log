@@ -4842,3 +4842,32 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.core.net 1 0 2018-09-24 16:46:49.531
 !MESSAGE System property http.proxyPort is not set but should be 3128.
+!SESSION 2018-10-01 13:34:34.031 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-01 13:34:50.082
+!MESSAGE System property http.proxyHost is not set but should be prodsif-pack.infra.umontpellier.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-01 13:34:50.092
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+!SESSION 2018-10-01 16:44:58.129 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-10-01 16:45:07.291
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-01 16:45:07.913
+!MESSAGE System property http.proxyHost is not set but should be prodsif-pack.infra.umontpellier.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-01 16:45:07.921
+!MESSAGE System property http.proxyPort is not set but should be 3128.

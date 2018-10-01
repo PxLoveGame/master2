@@ -1,0 +1,1560 @@
+<RCAExplore_Document>
+	<Step nb="0">
+		<Lattice numberObj="13" numberAtt="103" numberCpt="13" >
+			<Config algo="fca">
+			</Config>
+			<Name>Collections</Name>
+			<Object>com.google.common.collect.Multimap</Object>
+			<Object>com.google.common.collect.ArrayListMultimap</Object>
+			<Object>com.google.common.collect.ForwardingListMultimap</Object>
+			<Object>com.google.common.collect.ForwardingMultimap</Object>
+			<Object>com.google.common.collect.ForwardingSetMultimap</Object>
+			<Object>com.google.common.collect.ForwardingSortedSetMultimap</Object>
+			<Object>com.google.common.collect.HashMultimap</Object>
+			<Object>com.google.common.collect.ImmutableListMultimap</Object>
+			<Object>com.google.common.collect.ImmutableMultimap</Object>
+			<Object>com.google.common.collect.ImmutableSetMultimap</Object>
+			<Object>com.google.common.collect.LinkedHashMultimap</Object>
+			<Object>com.google.common.collect.LinkedListMultimap</Object>
+			<Object>com.google.common.collect.TreeMultimap</Object>
+			<Attribute>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>interface java.util.Map asMap()</Attribute>
+			<Attribute>boolean remove(java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>interface java.util.Collection get(java.lang.Object)</Attribute>
+			<Attribute>boolean put(java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>interface java.util.Collection values()</Attribute>
+			<Attribute>void clear()</Attribute>
+			<Attribute>boolean isEmpty()</Attribute>
+			<Attribute>int size()</Attribute>
+			<Attribute>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>boolean putAll(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>void forEach(java.util.function.BiConsumer)</Attribute>
+			<Attribute>interface com.google.common.collect.Multiset keys()</Attribute>
+			<Attribute>interface java.util.Set keySet()</Attribute>
+			<Attribute>boolean containsValue(java.lang.Object)</Attribute>
+			<Attribute>boolean containsKey(java.lang.Object)</Attribute>
+			<Attribute>interface java.util.Collection entries()</Attribute>
+			<Attribute>interface java.util.Collection removeAll(java.lang.Object)</Attribute>
+			<Attribute>interface java.util.List replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>interface java.util.List get(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ArrayListMultimap create()</Attribute>
+			<Attribute>class com.google.common.collect.ArrayListMultimap create(int, int)</Attribute>
+			<Attribute>class com.google.common.collect.ArrayListMultimap create(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>void trimToSize()</Attribute>
+			<Attribute>interface java.util.List removeAll(java.lang.Object)</Attribute>
+			<Attribute>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>interface java.util.Set get(java.lang.Object)</Attribute>
+			<Attribute>interface java.util.Set entries()</Attribute>
+			<Attribute>interface java.util.Set removeAll(java.lang.Object)</Attribute>
+			<Attribute>interface java.util.SortedSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>interface java.util.Comparator valueComparator()</Attribute>
+			<Attribute>interface java.util.SortedSet get(java.lang.Object)</Attribute>
+			<Attribute>interface java.util.SortedSet removeAll(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.HashMultimap create(int, int)</Attribute>
+			<Attribute>class com.google.common.collect.HashMultimap create()</Attribute>
+			<Attribute>class com.google.common.collect.HashMultimap create(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableCollection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableList replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap inverse()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap inverse()</Attribute>
+			<Attribute>interface java.util.stream.Collector toImmutableListMultimap(java.util.function.Function, java.util.function.Function)</Attribute>
+			<Attribute>interface java.util.stream.Collector flatteningToImmutableListMultimap(java.util.function.Function, java.util.function.Function)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap$Builder builder()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableCollection get(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableList get(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap copyOf(java.lang.Iterable)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap copyOf(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap of()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableCollection removeAll(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableList removeAll(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMap asMap()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap$Builder builder()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableCollection values()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap copyOf(java.lang.Iterable)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap copyOf(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultiset keys()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSet keySet()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableCollection entries()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap of()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap inverse()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap$Builder builder()</Attribute>
+			<Attribute>interface java.util.stream.Collector toImmutableSetMultimap(java.util.function.Function, java.util.function.Function)</Attribute>
+			<Attribute>interface java.util.stream.Collector flatteningToImmutableSetMultimap(java.util.function.Function, java.util.function.Function)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSet get(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap copyOf(java.lang.Iterable)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap copyOf(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSet entries()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap of()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSet removeAll(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.LinkedHashMultimap create()</Attribute>
+			<Attribute>class com.google.common.collect.LinkedHashMultimap create(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.LinkedHashMultimap create(int, int)</Attribute>
+			<Attribute>interface java.util.List values()</Attribute>
+			<Attribute>class com.google.common.collect.LinkedListMultimap create(int)</Attribute>
+			<Attribute>class com.google.common.collect.LinkedListMultimap create(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.LinkedListMultimap create()</Attribute>
+			<Attribute>interface java.util.List entries()</Attribute>
+			<Attribute>interface java.util.NavigableMap asMap()</Attribute>
+			<Attribute>interface java.util.SortedMap asMap()</Attribute>
+			<Attribute>interface java.util.Comparator keyComparator()</Attribute>
+			<Attribute>interface java.util.NavigableSet get(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.TreeMultimap create(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.TreeMultimap create(java.util.Comparator, java.util.Comparator)</Attribute>
+			<Attribute>class com.google.common.collect.TreeMultimap create()</Attribute>
+			<Attribute>interface java.util.SortedSet keySet()</Attribute>
+			<Attribute>interface java.util.NavigableSet keySet()</Attribute>
+			<Concept>
+				<ID>Concept_Collections_12</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.Multimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ArrayListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ForwardingListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ForwardingMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ForwardingSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ForwardingSortedSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.HashMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.LinkedHashMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.LinkedListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.TreeMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_10</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ArrayListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ForwardingListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.LinkedListMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_12</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_7</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ArrayListMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ArrayListMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ArrayListMultimap create(int, int)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>void trimToSize()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ArrayListMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List get(java.lang.Object)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_10</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_0</ID>
+				<Extent>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>interface java.util.Comparator keyComparator()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Comparator valueComparator()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.TreeMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedHashMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedMap asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedListMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.TreeMultimap create()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap inverse()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of()</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedListMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMap asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector flatteningToImmutableListMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ArrayListMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableList replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap inverse()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.NavigableSet keySet()</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.NavigableMap asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.HashMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ArrayListMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector toImmutableListMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedHashMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector flatteningToImmutableSetMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultiset keys()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of()</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ArrayListMultimap create(int, int)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableList removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedHashMultimap create(int, int)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedListMultimap create(int)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.HashMultimap create(int, int)</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List entries()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.TreeMultimap create(java.util.Comparator, java.util.Comparator)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet keySet()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableList get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void trimToSize()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.HashMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.NavigableSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector toImmutableSetMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap inverse()</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_7</Concept_Ref>
+					<Concept_Ref>Concept_Collections_6</Concept_Ref>
+					<Concept_Ref>Concept_Collections_5</Concept_Ref>
+					<Concept_Ref>Concept_Collections_4</Concept_Ref>
+					<Concept_Ref>Concept_Collections_3</Concept_Ref>
+					<Concept_Ref>Concept_Collections_2</Concept_Ref>
+					<Concept_Ref>Concept_Collections_1</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_11</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ForwardingSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ForwardingSortedSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.HashMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.LinkedHashMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.TreeMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_12</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_8</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ForwardingSortedSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.TreeMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>interface java.util.Comparator valueComparator()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_11</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_6</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.HashMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.HashMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.HashMultimap create(int, int)</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.HashMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_11</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_5</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ImmutableListMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultiset keys()</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of()</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableList removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap inverse()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMap asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector flatteningToImmutableListMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet keySet()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection entries()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableList replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableList get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector toImmutableListMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap inverse()</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_10</Concept_Ref>
+					<Concept_Ref>Concept_Collections_9</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_4</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ImmutableSetMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultiset keys()</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap inverse()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMap asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet keySet()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap inverse()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector flatteningToImmutableSetMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector toImmutableSetMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_11</Concept_Ref>
+					<Concept_Ref>Concept_Collections_9</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_9</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ImmutableListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableSetMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet keySet()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection entries()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultiset keys()</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap inverse()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMap asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_12</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_3</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.LinkedHashMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedHashMultimap create()</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedHashMultimap create(int, int)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedHashMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_11</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_2</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.LinkedListMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedListMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedListMultimap create(int)</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedListMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List values()</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_10</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_1</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.TreeMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>interface java.util.Comparator keyComparator()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Comparator valueComparator()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.TreeMultimap create(java.util.Comparator, java.util.Comparator)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.TreeMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedMap asMap()</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.NavigableSet keySet()</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.TreeMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.NavigableMap asMap()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.NavigableSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_8</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+	</Step >
+	<Step nb="1">
+		<Lattice numberObj="13" numberAtt="103" numberCpt="13" >
+			<Config algo="fca">
+			</Config>
+			<Name>Collections</Name>
+			<Object>com.google.common.collect.Multimap</Object>
+			<Object>com.google.common.collect.ArrayListMultimap</Object>
+			<Object>com.google.common.collect.ForwardingListMultimap</Object>
+			<Object>com.google.common.collect.ForwardingMultimap</Object>
+			<Object>com.google.common.collect.ForwardingSetMultimap</Object>
+			<Object>com.google.common.collect.ForwardingSortedSetMultimap</Object>
+			<Object>com.google.common.collect.HashMultimap</Object>
+			<Object>com.google.common.collect.ImmutableListMultimap</Object>
+			<Object>com.google.common.collect.ImmutableMultimap</Object>
+			<Object>com.google.common.collect.ImmutableSetMultimap</Object>
+			<Object>com.google.common.collect.LinkedHashMultimap</Object>
+			<Object>com.google.common.collect.LinkedListMultimap</Object>
+			<Object>com.google.common.collect.TreeMultimap</Object>
+			<Attribute>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>interface java.util.Map asMap()</Attribute>
+			<Attribute>boolean remove(java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>interface java.util.Collection get(java.lang.Object)</Attribute>
+			<Attribute>boolean put(java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>interface java.util.Collection values()</Attribute>
+			<Attribute>void clear()</Attribute>
+			<Attribute>boolean isEmpty()</Attribute>
+			<Attribute>int size()</Attribute>
+			<Attribute>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>boolean putAll(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>void forEach(java.util.function.BiConsumer)</Attribute>
+			<Attribute>interface com.google.common.collect.Multiset keys()</Attribute>
+			<Attribute>interface java.util.Set keySet()</Attribute>
+			<Attribute>boolean containsValue(java.lang.Object)</Attribute>
+			<Attribute>boolean containsKey(java.lang.Object)</Attribute>
+			<Attribute>interface java.util.Collection entries()</Attribute>
+			<Attribute>interface java.util.Collection removeAll(java.lang.Object)</Attribute>
+			<Attribute>interface java.util.List replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>interface java.util.List get(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ArrayListMultimap create()</Attribute>
+			<Attribute>class com.google.common.collect.ArrayListMultimap create(int, int)</Attribute>
+			<Attribute>class com.google.common.collect.ArrayListMultimap create(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>void trimToSize()</Attribute>
+			<Attribute>interface java.util.List removeAll(java.lang.Object)</Attribute>
+			<Attribute>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>interface java.util.Set get(java.lang.Object)</Attribute>
+			<Attribute>interface java.util.Set entries()</Attribute>
+			<Attribute>interface java.util.Set removeAll(java.lang.Object)</Attribute>
+			<Attribute>interface java.util.SortedSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>interface java.util.Comparator valueComparator()</Attribute>
+			<Attribute>interface java.util.SortedSet get(java.lang.Object)</Attribute>
+			<Attribute>interface java.util.SortedSet removeAll(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.HashMultimap create(int, int)</Attribute>
+			<Attribute>class com.google.common.collect.HashMultimap create()</Attribute>
+			<Attribute>class com.google.common.collect.HashMultimap create(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableCollection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableList replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap inverse()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap inverse()</Attribute>
+			<Attribute>interface java.util.stream.Collector toImmutableListMultimap(java.util.function.Function, java.util.function.Function)</Attribute>
+			<Attribute>interface java.util.stream.Collector flatteningToImmutableListMultimap(java.util.function.Function, java.util.function.Function)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap$Builder builder()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableCollection get(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableList get(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap copyOf(java.lang.Iterable)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap copyOf(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap of()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableCollection removeAll(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableList removeAll(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMap asMap()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap$Builder builder()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableCollection values()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap copyOf(java.lang.Iterable)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap copyOf(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultiset keys()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSet keySet()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableCollection entries()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap of()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap inverse()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap$Builder builder()</Attribute>
+			<Attribute>interface java.util.stream.Collector toImmutableSetMultimap(java.util.function.Function, java.util.function.Function)</Attribute>
+			<Attribute>interface java.util.stream.Collector flatteningToImmutableSetMultimap(java.util.function.Function, java.util.function.Function)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSet get(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap copyOf(java.lang.Iterable)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap copyOf(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSet entries()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap of()</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.ImmutableSet removeAll(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.LinkedHashMultimap create()</Attribute>
+			<Attribute>class com.google.common.collect.LinkedHashMultimap create(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.LinkedHashMultimap create(int, int)</Attribute>
+			<Attribute>interface java.util.List values()</Attribute>
+			<Attribute>class com.google.common.collect.LinkedListMultimap create(int)</Attribute>
+			<Attribute>class com.google.common.collect.LinkedListMultimap create(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.LinkedListMultimap create()</Attribute>
+			<Attribute>interface java.util.List entries()</Attribute>
+			<Attribute>interface java.util.NavigableMap asMap()</Attribute>
+			<Attribute>interface java.util.SortedMap asMap()</Attribute>
+			<Attribute>interface java.util.Comparator keyComparator()</Attribute>
+			<Attribute>interface java.util.NavigableSet get(java.lang.Object)</Attribute>
+			<Attribute>class com.google.common.collect.TreeMultimap create(com.google.common.collect.Multimap)</Attribute>
+			<Attribute>class com.google.common.collect.TreeMultimap create(java.util.Comparator, java.util.Comparator)</Attribute>
+			<Attribute>class com.google.common.collect.TreeMultimap create()</Attribute>
+			<Attribute>interface java.util.SortedSet keySet()</Attribute>
+			<Attribute>interface java.util.NavigableSet keySet()</Attribute>
+			<Concept>
+				<ID>Concept_Collections_12</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.Multimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ArrayListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ForwardingListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ForwardingMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ForwardingSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ForwardingSortedSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.HashMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.LinkedHashMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.LinkedListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.TreeMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_10</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ArrayListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ForwardingListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.LinkedListMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_12</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_7</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ArrayListMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ArrayListMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ArrayListMultimap create(int, int)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>void trimToSize()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ArrayListMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List get(java.lang.Object)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_10</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_0</ID>
+				<Extent>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>interface java.util.Comparator keyComparator()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Comparator valueComparator()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.TreeMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedHashMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedMap asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedListMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.TreeMultimap create()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap inverse()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of()</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedListMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMap asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector flatteningToImmutableListMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ArrayListMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableList replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap inverse()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.NavigableSet keySet()</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.NavigableMap asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.HashMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ArrayListMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector toImmutableListMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedHashMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector flatteningToImmutableSetMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultiset keys()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of()</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ArrayListMultimap create(int, int)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableList removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedHashMultimap create(int, int)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedListMultimap create(int)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.HashMultimap create(int, int)</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List entries()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.TreeMultimap create(java.util.Comparator, java.util.Comparator)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet keySet()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableList get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void trimToSize()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.HashMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.NavigableSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector toImmutableSetMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap inverse()</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_7</Concept_Ref>
+					<Concept_Ref>Concept_Collections_6</Concept_Ref>
+					<Concept_Ref>Concept_Collections_5</Concept_Ref>
+					<Concept_Ref>Concept_Collections_4</Concept_Ref>
+					<Concept_Ref>Concept_Collections_3</Concept_Ref>
+					<Concept_Ref>Concept_Collections_2</Concept_Ref>
+					<Concept_Ref>Concept_Collections_1</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_11</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ForwardingSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ForwardingSortedSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.HashMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.LinkedHashMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.TreeMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_12</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_8</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ForwardingSortedSetMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.TreeMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>interface java.util.Comparator valueComparator()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_11</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_6</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.HashMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.HashMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.HashMultimap create(int, int)</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.HashMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_11</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_5</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ImmutableListMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultiset keys()</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of()</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableList removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap inverse()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMap asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector flatteningToImmutableListMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet keySet()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection entries()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableList replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableList get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector toImmutableListMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableListMultimap inverse()</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_10</Concept_Ref>
+					<Concept_Ref>Concept_Collections_9</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_4</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ImmutableSetMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultiset keys()</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap inverse()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMap asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet keySet()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap inverse()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSetMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector flatteningToImmutableSetMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.stream.Collector toImmutableSetMultimap(java.util.function.Function, java.util.function.Function)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_11</Concept_Ref>
+					<Concept_Ref>Concept_Collections_9</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_9</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.ImmutableListMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableMultimap</Object_Ref>
+					<Object_Ref>com.google.common.collect.ImmutableSetMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableSet keySet()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection entries()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap$Builder builder()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultiset keys()</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap copyOf(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap inverse()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMap asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableMultimap of(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.ImmutableCollection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_12</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_3</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.LinkedHashMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedHashMultimap create()</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedHashMultimap create(int, int)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedHashMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_11</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_2</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.LinkedListMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedListMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedListMultimap create(int)</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.LinkedListMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.List values()</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_10</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Collections_1</ID>
+				<Extent>
+					<Object_Ref>com.google.common.collect.TreeMultimap</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>interface java.util.Comparator keyComparator()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Comparator valueComparator()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>boolean containsEntry(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set entries()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>int size()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.TreeMultimap create(java.util.Comparator, java.util.Comparator)</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.TreeMultimap create(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>boolean remove(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet keySet()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedMap asMap()</Attribute_Ref>
+					<Attribute_Ref>boolean isEmpty()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.NavigableSet keySet()</Attribute_Ref>
+					<Attribute_Ref>boolean put(java.lang.Object, java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>void clear()</Attribute_Ref>
+					<Attribute_Ref>boolean putAll(com.google.common.collect.Multimap)</Attribute_Ref>
+					<Attribute_Ref>boolean containsKey(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set keySet()</Attribute_Ref>
+					<Attribute_Ref>class com.google.common.collect.TreeMultimap create()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.NavigableMap asMap()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.SortedSet removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection removeAll(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection entries()</Attribute_Ref>
+					<Attribute_Ref>interface com.google.common.collect.Multiset keys()</Attribute_Ref>
+					<Attribute_Ref>void forEach(java.util.function.BiConsumer)</Attribute_Ref>
+					<Attribute_Ref>boolean containsValue(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Map asMap()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.NavigableSet get(java.lang.Object)</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Collection values()</Attribute_Ref>
+					<Attribute_Ref>interface java.util.Set replaceValues(java.lang.Object, java.lang.Iterable)</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Collections_8</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+	</Step >
+</RCAExplore_Document>
