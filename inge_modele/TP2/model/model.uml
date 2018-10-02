@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0R3O8I8MEeaoUoaOISqQIA" name="maRacine">
+  <packageImport xmi:id="_0bfFAI8MEeaoUoaOISqQIA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OrbGIMZFEeiDhZyIcDf6iA" name="Class2"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_jYKKAMY8EeiDhZyIcDf6iA" name="src1">
+    <packagedElement xmi:type="uml:Class" xmi:id="_2447kI8MEeaoUoaOISqQIA" name="Class1">
+      <ownedAttribute xmi:id="_8qWYQMZCEeiDhZyIcDf6iA" name="attribut" visibility="public" type="_2447kI8MEeaoUoaOISqQIA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1i74YMY8EeiDhZyIcDf6iA" name="src2"/>
+</uml:Model>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_UP41QMY6EeiDhZyIcDf6iA" name="model_papyrus">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_UU0_oMY6EeiDhZyIcDf6iA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ZVbKsMZFEeiDhZyIcDf6iA" name="src1">
+    <packagedElement xmi:type="uml:Class" xmi:id="_eIIrwMZFEeiDhZyIcDf6iA" name="Class1" visibility="package">
+      <generalization xmi:type="uml:Generalization" xmi:id="_xy4B8MZOEeiDhZyIcDf6iA" general="_fO_M0MZKEeiDhZyIcDf6iA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_51LakMZFEeiDhZyIcDf6iA" name="attribut" type="_zT-XYMZFEeiDhZyIcDf6iA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_fO_M0MZKEeiDhZyIcDf6iA" name="Class1_parent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_b_8QMMZFEeiDhZyIcDf6iA" name="src2"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zT-XYMZFEeiDhZyIcDf6iA" name="Class2"/>
+</uml:Model>
