@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hbase-0.94.2-security">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/hbase-0.94.2-security.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
