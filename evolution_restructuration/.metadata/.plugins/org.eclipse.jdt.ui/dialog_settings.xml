@@ -3,6 +3,7 @@
 	<item value="true" key="Replace"/>
 	<item value="true" key="Annotations"/>
 	<item value="true" key="Comments"/>
+	<item value="/auto_home/achaillot/workspace/Master2/evolution_restructuration/TP1-2_AnalyseStatique-Dynamique/lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="false" key="InstanceOf"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="updateSimilarElements"/>
@@ -54,6 +55,9 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="2" key="pageIndex"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

@@ -1,1 +1,1 @@
-{}
+[[{"location":"/usr/lib/jvm/java-8-openjdk-amd64","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"],[{"location":"/auto_home/achaillot/workspace/Master2/evolution_restructuration/TP1-2_AnalyseStatique-Dynamique/lib/org.eclipse.jdt.core_3.5.2.v_981_R35x.jar","type":"JAR","hints":{}},"org.eclipse.jdt:org.eclipse.jdt.core:3.8.3"]]

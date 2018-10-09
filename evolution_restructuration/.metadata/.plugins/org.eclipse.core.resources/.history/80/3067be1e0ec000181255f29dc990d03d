@@ -1,9 +1,0 @@
-
-/**
- * 
- * @author Louis Daviaud
- *
- */
-public enum Animal {
-	Chien, CHAT, C
-}
