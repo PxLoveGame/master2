@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;setType&apos; to &apos;SetType&apos;&#x0A;- Original project: &apos;HMIN306_TP3&apos;&#x0A;- Original element: &apos;setType&apos;&#x0A;- Renamed element: &apos;SetType&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;setType&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{setType.java[setType" matchStrategy="1" name="SetType" qualified="false" references="true" similarDeclarations="false" stamp="1539612834216" textual="false" version="1.0"/>
+</session>

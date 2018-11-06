@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_71xjoOHAEeifFKYrC5PESw" name="TP_State">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_8IfrUOHAEeifFKYrC5PESw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gftNkOHEEeifFKYrC5PESw" name="Poulet" visibility="package">
+    <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_zfbuUOHBEeifFKYrC5PESw" name="Poulet au kfc">
+      <region xmi:type="uml:Region" xmi:id="_1DPqcOHBEeifFKYrC5PESw" name="Region1">
+        <transition xmi:type="uml:Transition" xmi:id="_tAkYAOHCEeifFKYrC5PESw" source="_g7IQMOHCEeifFKYrC5PESw" target="_jX6bsOHCEeifFKYrC5PESw">
+          <trigger xmi:type="uml:Trigger" xmi:id="_vFijoOHGEeifFKYrC5PESw" name="cuisiner_trigger" event="_uCOsgOHGEeifFKYrC5PESw"/>
+        </transition>
+        <transition xmi:type="uml:Transition" xmi:id="_trlq8OHCEeifFKYrC5PESw" source="_jX6bsOHCEeifFKYrC5PESw" target="_K-3NMOHCEeifFKYrC5PESw">
+          <trigger xmi:type="uml:Trigger" xmi:id="_1D_fEOHGEeifFKYrC5PESw" name="vendre_trigger" event="_0ZyrgOHGEeifFKYrC5PESw"/>
+        </transition>
+        <transition xmi:type="uml:Transition" xmi:id="_1ZzzgOHFEeifFKYrC5PESw" kind="local" source="_602csOHBEeifFKYrC5PESw" target="_yxtv4OHFEeifFKYrC5PESw">
+          <trigger xmi:type="uml:Trigger" xmi:id="_L3rHsOHGEeifFKYrC5PESw" name="elever_trigger" event="_J2hvUOHGEeifFKYrC5PESw"/>
+        </transition>
+        <transition xmi:type="uml:Transition" xmi:id="_2D7ukOHFEeifFKYrC5PESw" source="_yxtv4OHFEeifFKYrC5PESw" target="_g7IQMOHCEeifFKYrC5PESw">
+          <trigger xmi:type="uml:Trigger" xmi:id="_m1HlkOHGEeifFKYrC5PESw" name="tuer_trigger" event="_mFGd4OHGEeifFKYrC5PESw"/>
+        </transition>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_602csOHBEeifFKYrC5PESw" name="début de la fin"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_K-3NMOHCEeifFKYrC5PESw" name="fin de la fin"/>
+        <subvertex xmi:type="uml:State" xmi:id="_g7IQMOHCEeifFKYrC5PESw" name="Mort"/>
+        <subvertex xmi:type="uml:State" xmi:id="_jX6bsOHCEeifFKYrC5PESw" name="cuit"/>
+        <subvertex xmi:type="uml:State" xmi:id="_yxtv4OHFEeifFKYrC5PESw" name="vivant"/>
+      </region>
+    </ownedBehavior>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ql_tcOHFEeifFKYrC5PESw" name="elever"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_O2VGoOHFEeifFKYrC5PESw" name="tuer"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RsQK4OHFEeifFKYrC5PESw" name="cuisiner"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TUzdEOHFEeifFKYrC5PESw" name="vendre"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_J2hvUOHGEeifFKYrC5PESw" name="elever" operation="_Ql_tcOHFEeifFKYrC5PESw"/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_mFGd4OHGEeifFKYrC5PESw" name="tuer" operation="_O2VGoOHFEeifFKYrC5PESw"/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_uCOsgOHGEeifFKYrC5PESw" name="cuisiner" operation="_RsQK4OHFEeifFKYrC5PESw"/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_0ZyrgOHGEeifFKYrC5PESw" name="vendre" operation="_TUzdEOHFEeifFKYrC5PESw"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TRLBoOHCEeifFKYrC5PESw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TRMPwOHCEeifFKYrC5PESw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

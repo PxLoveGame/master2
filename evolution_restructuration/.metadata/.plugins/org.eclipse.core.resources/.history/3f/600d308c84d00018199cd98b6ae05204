@@ -1,0 +1,16 @@
+
+public class setType implements Comparable<SetType>{
+
+	private int number;
+	private String value;
+	
+	@Override
+	public int compareTo(SetType o) {
+		if(number == o.number){
+			return value.compareTo(o.value);
+		}
+		return number - o.number;
+	}
+	
+	
+}
