@@ -1,0 +1,117 @@
+package converter;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.ejb.Stateless;
+import javax.net.ssl.HttpsURLConnection;
+
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.JDOMException;
+import org.jdom2.Namespace;
+import org.jdom2.input.SAXBuilder;
+
+/**
+ * Session Bean implementation class ConverterBean
+ */
+@Stateless
+public class ConverterBean implements IConverter {
+
+    /**
+     * Default constructor. 
+     */
+    public ConverterBean() {
+        // TODO Auto-generated constructor stub
+    }
+
+	@Override
+	public double euroToOtherCurrency(double amount, String currencyCode) throws IOException, JDOMException {
+		
+		 	SAXBuilder sxb = new SAXBuilder();
+	        URL url = new URL("https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml");
+	        HttpsURLConnection connection = (HttpsURLConnection) url.openConnection();
+	        Document document = sxb.build(connection.getInputStream());
+	        Element racine = document.getRootElement();
+	        Namespace ns = Namespace.getNamespace("https://www.ecb.int/vocabulary/2002-08-01/eurofxref");
+	        Element firstCube = racine.getChild("Cube", ns);
+
+	        Element secondeCube = firstCube.getChild("Cube", ns);
+
+	        List<Element> othersCurrency = secondeCube.getChildren();
+
+	        for(Element currency : othersCurrency){
+	            if(currency.getAttribute("currency").getValue().equals(currencyCode)){
+	                return currency.getAttribute("rate").getDoubleValue() * amount;
+	            }
+	        }
+
+	        return amount;
+	}
+
+	@Override
+	public double euroToOtherCurrency(double amount, double rate) {
+		return amount * rate;
+	}
+
+	@Override
+	public List<Monnaie> getAvailableCurrencies() throws IOException, JDOMException {
+		
+		List<Monnaie> result = new ArrayList<Monnaie>();
+		
+		SAXBuilder sxb = new SAXBuilder();
+        URL url_1 = new URL("https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml");
+        URL url_2 = new URL("https://www.currency-iso.org/dam/downloads/lists/list_one.xml");       
+        HttpsURLConnection connection_1 = (HttpsURLConnection) url_1.openConnection();
+        HttpsURLConnection connection_2 = (HttpsURLConnection) url_2.openConnection();
+        Document document_1 = sxb.build(connection_1.getInputStream());
+        Document document_2 = sxb.build(connection_2.getInputStream());
+        Element racine_1 = document_1.getRootElement();
+        Element racine_2 = document_2.getRootElement();
+        
+        Namespace ns = Namespace.getNamespace("https://www.ecb.int/vocabulary/2002-08-01/eurofxref");
+        
+        // for First URL
+        Element firstCube = racine_1.getChild("Cube", ns);
+        Element secondeCube = firstCube.getChild("Cube", ns);
+        List<Element> othersCurrency = secondeCube.getChildren();
+        
+        //for Second URL
+        List<Element> otherCountries = racine_2.getChild("CcyTbl", ns).getChildren();
+        
+        for(Element currency : othersCurrency) {
+        	Monnaie m = new Monnaie(currency.getAttribute("currency").getValue(), currency.getAttribute("rate").getDoubleValue());
+        	
+        	for(Element country : otherCountries) {
+        		if(country.getChild("Ccy", ns).getValue().equals(m.getCurrencyCode())) {
+        			m.setCountryName(country.getChild("CtryNm", ns).getValue());
+        			m.setCurrencyCode(country.getChild("CcyNm", ns).getValue());
+        		}
+        	}
+        	
+        	result.add(m);
+        }
+        
+        return result;
+	}
+
+	@Override
+	public Map<Monnaie, Double> euroToAllCurrencies(double amount) throws IOException, JDOMException {
+		
+		List<Monnaie> currencies = getAvailableCurrencies();
+		Map<Monnaie, Double> result = new HashMap<>();
+		
+		for(Monnaie currency : currencies) {
+			double converted = euroToOtherCurrency(amount, currency.getRate());
+			result.put(currency, converted);
+		}
+		
+		return result;
+	}
+
+}

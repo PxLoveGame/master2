@@ -1,0 +1,11 @@
+package converter;
+
+public class Monnaie {
+
+	private String coutryName;
+	private String currencyName;
+	private double rate;
+	private String currencyCode;
+	
+	
+}

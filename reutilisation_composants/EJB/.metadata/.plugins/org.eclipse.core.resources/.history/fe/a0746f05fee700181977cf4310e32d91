@@ -1,0 +1,89 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"
+    import="java.util.*,javax.jms.*,javax.naming.*,java.math.*"
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<jsp:useBean class="converter.ConverterBean" id="beanConv"/>
+
+
+<%
+	if(request.getParameter("montant") == null){
+		
+%>
+<form name="Changez votre monnaie" action="index.jsp" method="get">
+	<label>Veuillez saisir le montant à convertir : </label>
+	
+	<br/>
+	
+	<input type="text" name="montant" >
+	
+	<br/>
+	
+	<label>Veuillez selectionner la monnaie cible: </label>
+	
+	<br/>
+	<select name="monnaie">   
+		<option value="1.1261" >USD</option>
+		<option value="128.32" >JPY</option>
+		<option value="1.9558" >BGN</option>
+		<option value="25.939" >CZK</option>
+		<option value="7.4613" >DKK</option>
+		<option value="0.86945" >GBP</option>
+		<option value="322.89" >HUF</option>
+		<option value="4.2992" >PLN</option>
+		<option value="4.6612" >RON</option>
+		<option value="10.2284" >SEK</option>
+		<option value="1.1368" >CHF</option>
+		<option value="139.40" >ISK</option>
+		<option value="9.5563" >NOK</option>
+		<option value="7.4238" >HRK</option>
+		<option value="76.1990" >RUB</option>
+		<option value="6.1857" >TRY</option>
+		<option value="1.5628" >AUD</option>
+		<option value="4.2479" >BRL</option>
+		<option value="1.4888" >CAD</option>
+		<option value="7.8354" >CNY</option>
+		<option value="8.8161" >HKD</option>
+		<option value="16692.18" >IDR</option>
+		<option value="4.1593" >ILS</option>
+		<option value="81.8390" >INR</option>
+		<option value="1277.21" >KRW</option>
+		<option value="23.0152" >MXN</option>
+		<option value="4.7229" >MYR</option>
+		<option value="1.6684" >NZD</option>
+		<option value="59.885" >PHP</option>
+		<option value="1.5559" >SGD</option>
+		<option value="37.178" >THB</option>
+		<option value="16.2504" >ZAR</option>
+	</select>
+	
+	<br/>
+	
+	<label>Saisir votre adresse mail : </label>
+	
+	<br/> 
+	<input type="email" id="email" pattern=".+@.+" size="50">
+	
+	<br/>
+	<input type="submit" value="Envoyer"/>
+</form>
+
+<%
+	}
+	else {
+		double amount = Double.parseDouble(request.getParameter("montant"));
+		out.println("<h4> Le montant saisi est : </h4>" + amount);
+		
+		amount = beanConv.euroToOtherCurrency(amount, Double.parseDouble(request.getParameter("monnaie")));
+		out.println("<h4> Le montant converti est :  </h4>" + amount);
+	}
+%>
+
+</body>
+</html>

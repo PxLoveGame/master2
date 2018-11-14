@@ -1,0 +1,16 @@
+package converter;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+
+import javax.ejb.Remote;
+
+import org.jdom2.JDOMException;
+
+@Remote
+public interface IConverter {
+
+	public double euroToOtherCurrency(double amount, String currencyCode) throws IOException, JDOMException;
+	
+	public double euroToOtherCurrency(double amount, Double rate);
+}

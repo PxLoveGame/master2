@@ -1,0 +1,16 @@
+package converter;
+
+public class Monnaie {
+
+	private String countryName;
+	private String currencyName;
+	private double rate;
+	private String currencyCode;
+	
+	public Monnaie(String country, String currency, double r, String cc) {
+		this.countryName = country;
+		this.currencyName = currency;
+		this.rate = r;
+		this.currencyCode = cc;
+	}
+}
