@@ -579,7 +579,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_TUthytCVEeiXXPiZBMhcZA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_VcIUgOcsEeiueJ5Q_HLpMg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_TUuyA9CVEeiXXPiZBMhcZA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_UZzjQO1rEeiNyKNO89C6UA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_TUuyA9CVEeiXXPiZBMhcZA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_TUth19CVEeiXXPiZBMhcZA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -603,7 +603,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_TUtiINCVEeiXXPiZBMhcZA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_VcKwwecsEeiueJ5Q_HLpMg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_TUuxd9CVEeiXXPiZBMhcZA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_UZ1_gO1rEeiNyKNO89C6UA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_TUuxd9CVEeiXXPiZBMhcZA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_TUtiK9CVEeiXXPiZBMhcZA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -3728,6 +3728,7 @@
   <commands xmi:id="_Uq-kYecsEeiueJ5Q_HLpMg" elementId="AUTOGEN:::org.eclipse.debug.ui.breakpointsview.toolbar/org.eclipse.debug.ui.breakpointsView.toolbar.sortByAction" commandName="Sort By" description="Sort By" category="_TUvWDdCVEeiXXPiZBMhcZA"/>
   <commands xmi:id="_Uq_LcOcsEeiueJ5Q_HLpMg" elementId="AUTOGEN:::org.eclipse.mylyn.ui.search.contribution/org.eclipse.mylyn.ide.ui.actions.focus.search.results" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="_TUvWDdCVEeiXXPiZBMhcZA"/>
   <commands xmi:id="_Uq_ygOcsEeiueJ5Q_HLpMg" elementId="AUTOGEN:::org.eclipse.pde.ui.logViewActions/org.eclipse.jdt.debug.ui.LogViewActions.showStackTrace" commandName="Show Stack Trace in Console View" description="Show Stack Trace in Console View" category="_TUvWDdCVEeiXXPiZBMhcZA"/>
+  <commands xmi:id="_Mb54kO1rEeiFipmxUEFErA" elementId="AUTOGEN:::be.ac.vub.simpleocl.resource.simpleocl.ui.BreakpointRulerActions/be.ac.vub.simpleocl.resource.simpleocl.ui.debug.RulerToggleBreakpointAction" commandName="Add breakpoint" category="_TUvWDdCVEeiXXPiZBMhcZA"/>
   <addons xmi:id="_TUvV3tCVEeiXXPiZBMhcZA" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_TUvV39CVEeiXXPiZBMhcZA" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_TUvV4NCVEeiXXPiZBMhcZA" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
