@@ -26,6 +26,8 @@
 			<item value="soft"/>
 		</list>
 	</section>
+	<section name="NewWizardAction">
+	</section>
 	<section name="ImportExportAction">
 	</section>
 </section>

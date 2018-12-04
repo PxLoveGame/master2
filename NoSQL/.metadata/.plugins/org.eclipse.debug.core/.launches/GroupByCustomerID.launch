@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/TP_HMIN122M-hadoop/src/GroupByCustomerID.java"/>
+<listEntry value="/TP_HMIN122M-hadoop/src/GroupBy/GroupByCustomerID.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="GroupByCustomerID"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="GroupBy.GroupByCustomerID"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TP_HMIN122M-hadoop"/>
 </launchConfiguration>

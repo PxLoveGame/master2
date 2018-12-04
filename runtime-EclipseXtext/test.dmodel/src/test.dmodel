@@ -1,0 +1,11 @@
+start {
+	move from 1 to 6 qty 5 
+	wait 10 s
+	move from 2 to 7 qty 3 through filter 2
+	wait 5 s
+	move from 3 to 6  qty 3 through filter 1
+	move from 7 to 6 qty 3  through filter 0
+	wait 5 s
+	move from 6 to 11 qty 11 through filter 1  
+	
+}

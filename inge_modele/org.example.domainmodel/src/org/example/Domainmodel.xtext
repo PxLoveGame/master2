@@ -1,0 +1,32 @@
+grammar org.example.Domainmodel with org.eclipse.xtext.common.Terminals
+
+generate domainmodel "http://www.example.org/Domainmodel"
+	
+	
+StartPoint:
+	{StartPoint} 'start' '{'
+		(instructions+=Instruction)*  
+	'}';
+	
+Instruction:
+	InstructionMove | InstructionWait;
+	
+InstructionMove:
+	'move' 'from' from=INT 'to' to=INT 'qty'qty=INT ('through filter' filter=INT)?;
+	
+InstructionWait:
+	'wait'  tps=INT 's';
+
+Domainmodel :
+    (elements+=Type)*;
+
+Type:
+    Entity;
+
+ 
+Entity:
+    'entity' name=ID ('extends' superType=[Entity])? '{'
+        (startPoint=StartPoint)
+    '}';
+	
+
